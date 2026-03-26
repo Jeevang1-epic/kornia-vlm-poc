@@ -21,5 +21,10 @@ This implementation is strictly optimized for PyTorch with CUDA support to demon
 
 ### Installation
 Ensure your virtual environment is active, then run:
-```bash
-pip install -r requirements.txt
+
+    pip install -r requirements.txt
+
+
+## Usage
+* **To execute the forward pass and verify the tensor dimensional integrity across the pipeline, run the following command. The script will automatically allocate tensors to the available CUDA device.*
+
