@@ -28,3 +28,12 @@ Ensure your virtual environment is active, then run:
 ## Usage
 * *To execute the forward pass and verify the tensor dimensional integrity across the pipeline, run the following command. The script will automatically allocate tensors to the available CUDA device.*
 
+      python3 pipeline.py
+
+## Expected Tensor Flow
+The script initializes a dummy input tensor and processes it through the sequential Kornia-VLM pipeline. The expected dimensional transformations printed to the standard output are:
+
+Input Image: [Batch, Channels, Height, Width] -> [1, 3, 512, 512]
+
+Output Embeddings: [Batch, Projection_Dim] -> [1, 128]
+
