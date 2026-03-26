@@ -36,3 +36,5 @@ The script initializes a dummy input tensor and processes it through the sequent
 * *Input Image: [Batch, Channels, Height, Width] -> [1, 3, 512, 512]*
 * Output Embeddings: [Batch, Projection_Dim] -> [1, 128]
 
+## Project Scope & Future Work
+This PoC serves as the foundational technical validation for a broader Google Summer of Code (GSoC) 2026 proposal. Future iterations will expand this architecture to support massive-scale, batched image-text pair processing for true multi-modal training pipelines.
